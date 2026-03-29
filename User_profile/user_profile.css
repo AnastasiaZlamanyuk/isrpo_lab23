@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: rgb(206, 206, 221);
   text-align: center;
+  padding: 70px;
 }
 .title {
     text-align: center;
@@ -19,7 +20,7 @@ body {
     font-weight: 700;
 }
 .input {
-    width: 200px;
+    width: 600px;
     height: 25px;
 }
 .btn {
