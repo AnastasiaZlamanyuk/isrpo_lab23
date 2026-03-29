@@ -7,17 +7,22 @@
      <link rel="stylesheet" href="user_profile.css">
 </head>
 <body>
-    <h1>Профиль</h1>
+    <h1 class="title">Профиль</h1>
     <div class="container">
-        <h2>Введите ваши данные:</h2>
-        <p class="text">Имя</p>
-        <input type="text" id="name"/>
-        <p class="text">Возраст</p>
-        <input type="text" id="age"/>
-        <p class="text">Город</p>
-        <input type="text" id="city"/>
-        <p class="text">Хобби</p>
-        <input type="text" id="hobby"/>
+        <h2 class="title">Введите Ваши данные</h2>
+        <div>
+            <p class="text">Имя:</p>
+            <input type="text" id="name" class="input"/>
+            <p class="text">Возраста:</p>
+            <input type="text" id="age"class="input"/>
+            <p class="text">Города:</p>
+            <input type="text" id="city"class="input"/>
+            <p class="text">Хобби:</p>
+            <input type="text" id="hobby"class="input"/>
+        </div>
+        <div class="btn-container">
+            <button id="clear" class="btn">Очистить данные</button>
+        </div>
     </div>
     <script src="user_profile.js"></script>
 </body>
